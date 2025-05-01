@@ -1,2 +1,1 @@
-# testcicd
-# testcicd
+A simple Node JS app poc to test github runners.

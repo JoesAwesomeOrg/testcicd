@@ -1,0 +1,9 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    uses: <org>/shared-workflows/.github/workflows/build-node-app.yml@main
