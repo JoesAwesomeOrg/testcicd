@@ -1,9 +1,13 @@
 name: CI
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+
 jobs:
   build:
     uses: JoesAwesomeOrg/shared-workflows/.github/workflows/build-node-app.yml@main
+    runs-on: [self-hosted, ep_cicd]
+    secrets: inherit            
