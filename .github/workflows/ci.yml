@@ -6,4 +6,4 @@ on:
     branches: [ main ]
 jobs:
   build:
-    uses: <org>/shared-workflows/.github/workflows/build-node-app.yml@main
+    uses: JoesAwesomeOrg/shared-workflows/.github/workflows/build-node-app.yml@main
